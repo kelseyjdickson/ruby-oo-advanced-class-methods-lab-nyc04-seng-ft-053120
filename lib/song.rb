@@ -11,6 +11,11 @@ class Song
     Song.all.include?(song)
   end
 
+  def Song.new_by_name(song)
+    name = Song.new(song)
+end
+
+
   def save
     self.class.all << self
   end
