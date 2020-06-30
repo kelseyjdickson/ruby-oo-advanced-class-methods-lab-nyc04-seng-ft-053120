@@ -6,9 +6,9 @@ class Song
     @@all
   end
 
-  def self.create
-    song = Song.new
-    Song.all.include?(song)
+  def Song.create
+    song = Song.create
+    Song.all.include?()
   end
 
   def save
