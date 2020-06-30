@@ -8,7 +8,7 @@ class Song
 
   def self.create
     song = Song.new()
-    song
+    Song.all.include?(song)
   end
 
   def save
