@@ -21,7 +21,7 @@ end
 
 def self.create_by_name(name)
   song = self.create_by_name(name)
-  song
+  song.name
 
 
   def save
