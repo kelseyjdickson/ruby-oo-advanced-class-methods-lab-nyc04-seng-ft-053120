@@ -13,6 +13,7 @@ class Song
 
   def Song.new_by_name(song)
     name = Song.new(song)
+    name.name
 end
 
 
